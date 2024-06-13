@@ -43,7 +43,7 @@
 		48DF00622C185F5D009E3B87 /* RepoDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF00612C185F5D009E3B87 /* RepoDetailsCoordinator.swift */; };
 		48DF00642C1860E1009E3B87 /* RepoDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF00632C1860E0009E3B87 /* RepoDetailsViewModel.swift */; };
 		48DF00662C1ADA97009E3B87 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF00652C1ADA97009E3B87 /* Date+Extension.swift */; };
-		48DF006B2C1BA157009E3B87 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF00692C1BA06A009E3B87 /* CustomTextField.swift */; };
+		48DF006F2C1BA213009E3B87 /* CustomeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF006E2C1BA213009E3B87 /* CustomeTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,7 +104,7 @@
 		48DF00612C185F5D009E3B87 /* RepoDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsCoordinator.swift; sourceTree = "<group>"; };
 		48DF00632C1860E0009E3B87 /* RepoDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsViewModel.swift; sourceTree = "<group>"; };
 		48DF00652C1ADA97009E3B87 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
-		48DF00692C1BA06A009E3B87 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		48DF006E2C1BA213009E3B87 /* CustomeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -328,7 +328,6 @@
 			children = (
 				48DF00572C184F3F009E3B87 /* ImageLoader */,
 				48651F432C03F0DD00AAA7DD /* MainNavigationController.swift */,
-				48DF00692C1BA06A009E3B87 /* CustomTextField.swift */,
 				48651F4E2C0493E900AAA7DD /* UserDefaults */,
 				4894F1E52C00028300AC4FC9 /* CommonViews */,
 			);
@@ -341,6 +340,7 @@
 				4894F1E62C0002A300AC4FC9 /* SearchBarView.swift */,
 				4894F1E82C00CF9700AC4FC9 /* RepoBannerView.swift */,
 				48DF005A2C184FB1009E3B87 /* AsyncImageView.swift */,
+				48DF006E2C1BA213009E3B87 /* CustomeTextField.swift */,
 			);
 			path = CommonViews;
 			sourceTree = "<group>";
@@ -672,7 +672,6 @@
 				48651F442C03F0DD00AAA7DD /* MainNavigationController.swift in Sources */,
 				48651F622C053EA900AAA7DD /* HomeViewModel.swift in Sources */,
 				4894F1E32BFFFEDA00AC4FC9 /* HomeSceneView.swift in Sources */,
-				48DF006B2C1BA157009E3B87 /* CustomTextField.swift in Sources */,
 				48651F5E2C04CEE700AAA7DD /* UIWindo+Extensions.swift in Sources */,
 				48651F3D2C03EBA800AAA7DD /* RouterCoordinator.swift in Sources */,
 				4894F1A92BFDF38B00AC4FC9 /* LoginSceneView.swift in Sources */,
@@ -685,6 +684,7 @@
 				48651F6C2C05EB0D00AAA7DD /* MenuView.swift in Sources */,
 				48DF00662C1ADA97009E3B87 /* Date+Extension.swift in Sources */,
 				48651F4D2C0493BC00AAA7DD /* UserDefault.swift in Sources */,
+				48DF006F2C1BA213009E3B87 /* CustomeTextField.swift in Sources */,
 				48DF00592C184F5D009E3B87 /* ImageLoader.swift in Sources */,
 				4894F1D52BFDF4C800AC4FC9 /* SplashSceneView.swift in Sources */,
 				48651F3F2C03EBA800AAA7DD /* Router.swift in Sources */,
